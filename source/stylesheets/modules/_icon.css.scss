@@ -1,0 +1,24 @@
+[data-icon-after]:after {
+  font-family: 'Pictos Custom';
+  content: attr(data-icon-after);
+  speak: none; /* Not to be trusted, but hey. */
+  text-transform: none;
+  font-style: normal;
+  margin-left:5px;
+}
+
+.fast-forward {
+	padding: 6px 11px 14px;
+	border-radius: 70px;	
+	text-decoration: none;
+	color:black;
+	.fa {
+		display: block;
+		height: 11px;
+	}
+}
+
+.fast-forward:hover {
+	background: #92D356;
+	color: white;
+}

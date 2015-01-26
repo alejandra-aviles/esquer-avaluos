@@ -1,0 +1,71 @@
+.masonary-panel {
+	float: left;
+	display: inline-block;
+	padding-bottom: 7px;	
+	width:100%;
+	a {
+		width: 100%;
+		color: white;
+		font-size: 0.8em;
+		letter-spacing: 1px;
+		position: relative;
+		display: block;
+
+		p {
+			position: absolute;
+			top:40%;
+			width:100%;
+			font-size: 0.6em;
+			font-weight: 400;
+			letter-spacing: 3px;
+			padding-left:60px;
+			padding-right:20px;
+			box-sizing: border-box;
+			color: rgb(152,224,102);
+			text-transform: uppercase;
+		}
+
+		h2{
+			position: absolute;
+			top:40%;
+			width:100%;
+			font-weight: 600;
+			font-size: 0.8em;
+			font-weight: 200;
+			letter-spacing: 1px;
+			line-height: 1.6em;
+			padding-left:60px;
+			padding-right:60px;
+			padding-top: 20px;
+			box-sizing: border-box;
+			color: rgb(200,200,200);
+		}
+	}
+
+	img {
+		width: 100%;
+		display: block;
+
+	}
+
+	.cover {
+		display: none;
+	}
+}
+
+
+.masonary-panel:hover {
+	p {
+		z-index: 1000;
+	}
+
+	.cover {
+		position: absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		display: block;
+		background-color: rgba(0,0,0,0.8);
+	}
+}

@@ -1,0 +1,55 @@
+.columns {
+	@include group;
+}
+
+.column {
+	float:left;
+	position: relative;
+	overflow: hidden;
+}
+
+.column-medios {
+	width: 50%;
+}
+
+.column-tercios {
+	width: 33%;
+}
+
+.column-cuartos {
+	width: 25%;
+
+	img {
+		width: 100%;
+	}
+}
+
+.columns-guttered {
+	.column-medios {
+		width: 49%;
+	
+	}
+
+	.column-medios + .column-medios {
+		margin-left: 1%;
+	}
+
+	.column-tercera {
+		width:33%;
+	}
+
+	.column-tercera + .column-tercera {
+		margin-left:0.3%;
+	}
+}
+
+.columns-guttered {
+	.column-30 {
+		width: 29%;
+		margin-right:1%;
+	}	
+
+	.column-40 {
+		width: 40%;
+	}
+}
