@@ -3,76 +3,89 @@
 }
 
 html {
+	background-color: rgb(252,252,252);
 }
 
 body {
 	font-size: 20px;
-	font-family: "helvetica neue", "helvetica", "sans-serif";
+	font-family: "chaparral-pro";
 	font-weight: 100;
 	color: rgb(44,44,44);
+	// "minion-pro"
+
 }
 
 h1 {
-	font-size: 1em;
+	font-size: 2em;
+	letter-spacing: 4px;
+	padding-bottom: 40px;
+	font-weight: 400;
 }
 
 h2 {
+	font-size: 1em;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: rgb(55,55,55);
+	margin-bottom: 20px;
+	padding-bottom: 8px;
 
 }
 
 h3 {
-}
-
-h4{
-
-}
-
-h5{
-	font-family: "georgia";
-	text-transform: uppercase;
+	line-height: 30px;
+	font-size: 0.6em;
 	letter-spacing: 2px;
-	font-size: 0.8em;
-	padding-bottom: 30px;
-	text-align: center;
-	font-weight: 500;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-weight: 800;
+
+}
+
+
+h5 {
+
 }
 
 h6 {
 
 }
 
-a {
 
-}
 
 p {
 	font-size: 0.9em;
+	letter-spacing: 1px;
 	padding-bottom: 20px;
-	line-height: 20px;
+	line-height: 30px;
+	font-weight: 300;
 	font-style: justify;
+	padding-right: 50px;
 }
 
 em {
-	font-style: italic;
 	font-weight: 200;
 }
 
 a:hover {
-	color: rgba(64,179,80,1);
-	border-bottom: 1px solid rgba(64,179,80,1);
-
+	color: rgb(151,173,46);
 }
 
 a {
-	color: rgba(64,179,80,1);
 	text-decoration: none;
+	color: black;
+	
 }
 
 
 span {
 	font-size: 0.8em;
 	height: 3em;
-
 }
 
 

@@ -10,18 +10,33 @@
 
 .column-medios {
 	width: 50%;
+
 }
 
 .column-tercios {
 	width: 33%;
+	text-align: center;
+}
+
+.column-un-tercio {
+	width: 33%;
+}
+
+.column-dos-tercios {
+	width: 66%;
 }
 
 .column-cuartos {
 	width: 25%;
+	text-align: center;
+}
 
-	img {
-		width: 100%;
-	}
+.column-tres-cuartos {
+	width: 75%;
+}
+
+.column-un-cuarto {
+	width: 25%;
 }
 
 .columns-guttered {
